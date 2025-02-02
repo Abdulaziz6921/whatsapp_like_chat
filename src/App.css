@@ -1,0 +1,164 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #008c00;
+  border-radius: 20px;
+}
+
+.login-form {
+  width: 400px;
+  margin: auto;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .app-container {
+    border-radius: 0px;
+  }
+  .login-form {
+    max-width: 270px;
+    padding: 10px;
+  }
+  .login-form h2 {
+    font-size: 23px;
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  outline: none;
+  text-indent: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #128c7e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #075e54;
+}
+
+button:disabled {
+  background-color: #949494;
+  cursor: not-allowed;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* background: #fff; */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 15px;
+  background: #128c7e;
+  color: white;
+}
+
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #e5ddd5;
+  background-image: url("../src/assets/maxresdefault_live.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.message {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.message-content {
+  max-width: 60%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.message.incoming .message-content {
+  background: white;
+  margin-right: auto;
+}
+
+.message.outgoing {
+  justify-content: flex-end;
+}
+
+.message.outgoing .message-content {
+  background: #dcf8c6;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #999;
+  display: block;
+  margin-top: 4px;
+}
+
+.message-input {
+  display: flex;
+  padding: 15px;
+  background: #f0f0f0;
+  gap: 10px;
+}
+
+.message-input input {
+  flex: 1;
+  margin: 0;
+}
+
+.message-input button {
+  width: auto;
+  padding: 10px 20px;
+}
+
+.phone-input {
+  margin: auto;
+  /* padding: 10px; */
+  text-align: center;
+  /* background: #000; */
+  width: 100%;
+}
+
+.phone-input form {
+  max-width: 400px;
+  margin: 0 auto;
+  /* background: red; */
+}
+
+.error-message {
+  color: #871a1a;
+  font-size: 19px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
