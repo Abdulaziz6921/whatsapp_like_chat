@@ -1,8 +1,29 @@
-# React + Vite
+# Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это веб-приложение для чата, разработанное с использованием React.js и Vite как инструмента сборки, с использованием CSS для стилизации. Приложение использует API GREEN-API для отправки и получения сообщений WhatsApp и отображает их в интерфейсе чата, напоминающем WhatsApp.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Видео-презентация:
+[https://youtu.be/RKshQ9fZSpw](https://youtu.be/RKshQ9fZSpw)
+
+## 📂 Структура проекта
+
+- `src/components/` - Компоненты: Chat, LoginForm
+- `src/App.css/` - Стили для приложения
+- `README.md` - Этот файл
+
+## 🛠️ Технологии, использованные в проекте
+
+- React.js + Vite
+- GREEN-API (API для отправки и получения сообщений WhatsApp)
+- Axios: для отправки HTTP-запросов в API GREEN-API
+- CSS: для стилизации интерфейса
+
+## 📦 Установка и настройка
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/Abdulaziz6921/whatsapp_like_chat.git
+   cd whatsapp_like_chat
+   ```
