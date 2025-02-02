@@ -4,8 +4,8 @@
 
 ## 🚀 Live Demo
 
-Видео-презентация:
-[https://youtu.be/RKshQ9fZSpw](https://youtu.be/RKshQ9fZSpw)
+Ссылка на сервис в Интернете:
+[https://test-greenapi.netlify.app/](https://test-greenapi.netlify.app/)
 
 ## 📂 Структура проекта
 
@@ -23,7 +23,12 @@
 ## 📦 Установка и настройка
 
 1. Клонируйте репозиторий:
+
    ```bash
    git clone https://github.com/Abdulaziz6921/whatsapp_like_chat.git
    cd whatsapp_like_chat
+
+   npm install
+
+   npm run dev
    ```
